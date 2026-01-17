@@ -1,0 +1,715 @@
+[
+    {
+        "id": "00b96a78ea3f56bd",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9548c191c4632cac",
+        "type": "serial out",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "serial": "3af16153624fb0d3",
+        "x": 470,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "74ee1246e4c766ba",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~K1/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 260,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "f199c741d2d463c0",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~K2/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 300,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "d6f7a28e4e6f7a8f",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~K3/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 340,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "c4bc74cfa4998d3c",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~K4/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 380,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "e8a2cbd113327334",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~K5/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 420,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "f544b476961f828e",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~K6/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 460,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "7066300e61b0893c",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~K7/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 500,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "7b5c5b90b1cf0e1a",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~K8/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 540,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "3003ec90d8659a47",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~K9/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 580,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "f5034b3cab256895",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~K0/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 620,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "b478f1fcd1bf442f",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~K*/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 700,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "a2043a8b216fadd9",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~K#/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 740,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "366be788b65310a9",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~KA/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 820,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "78b8990d96bb3359",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~KB/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 860,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "f0a610a58435dffb",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~KC/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 900,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "b8b01ee9e48fe230",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~KD/N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 940,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "83983b975a6a6736",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AL~K//N",
+        "payloadType": "str",
+        "x": 180,
+        "y": 1020,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "d197c51751274d61",
+        "type": "serial control",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "serial": "3af16153624fb0d3",
+        "x": 710,
+        "y": 360,
+        "wires": [
+            [
+                "d2b6060b2c42a701"
+            ]
+        ]
+    },
+    {
+        "id": "d2b6060b2c42a701",
+        "type": "debug",
+        "z": "00b96a78ea3f56bd",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "656381d1c81a2f2c",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"enabled\":true}",
+        "payloadType": "json",
+        "x": 500,
+        "y": 340,
+        "wires": [
+            [
+                "d197c51751274d61"
+            ]
+        ]
+    },
+    {
+        "id": "eedaae8cf8cb6c94",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"enabled\":false}",
+        "payloadType": "json",
+        "x": 500,
+        "y": 380,
+        "wires": [
+            [
+                "d197c51751274d61"
+            ]
+        ]
+    },
+    {
+        "id": "1883092afb8b3858",
+        "type": "function",
+        "z": "00b96a78ea3f56bd",
+        "name": "function 2",
+        "func": "let inputString = msg.payload; // e.g., '144390'\nlet characters = inputString.split(''); // split into array of characters\n\n// Function to send each character with delay\nfunction sendCharacters(index) {\n    if (index >= characters.length) {\n        return; // done\n    }\n    // create a new message for the current character\n    let newMsg = { payload: characters[index] };\n    // send the message\n    node.send(newMsg);\n    // schedule next character after 100ms\n    setTimeout(() => sendCharacters(index + 1), 100);\n}\n\n// start sending from the first character\nsendCharacters(0);\n\n// prevent flow from continuing immediately\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 540,
+        "wires": [
+            [
+                "c4d08930798e4c2c",
+                "f6bb9aef9285a160"
+            ]
+        ]
+    },
+    {
+        "id": "bf3ac0e800f4875d",
+        "type": "inject",
+        "z": "00b96a78ea3f56bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "144390",
+        "payloadType": "str",
+        "x": 530,
+        "y": 500,
+        "wires": [
+            [
+                "1883092afb8b3858"
+            ]
+        ]
+    },
+    {
+        "id": "c4d08930798e4c2c",
+        "type": "debug",
+        "z": "00b96a78ea3f56bd",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "f6bb9aef9285a160",
+        "type": "function",
+        "z": "00b96a78ea3f56bd",
+        "name": "Lookup Table",
+        "func": "let incoming = msg.payload;\n\nswitch (incoming) {\n  case '1':msg.payload = 'AL~K1/N'; break;\n  case '2':msg.payload = 'AL~K2/N'; break;\n  case '3':msg.payload = 'AL~K3/N'; break;\n  case '4':msg.payload = 'AL~K4/N'; break;\n  case '5':msg.payload = 'AL~K5/N'; break;\n  case '6':msg.payload = 'AL~K6/N'; break;\n  case '7':msg.payload = 'AL~K7/N'; break;\n  case '8':msg.payload = 'AL~K8/N'; break;\n  case '9':msg.payload = 'AL~K9/N'; break;\n  case '0':msg.payload = 'AL~K0/N'; break;\n  \n  default:\n    \n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 600,
+        "wires": [
+            [
+                "9548c191c4632cac"
+            ]
+        ]
+    },
+    {
+        "id": "3af16153624fb0d3",
+        "type": "serial-port",
+        "name": "",
+        "serialport": "/dev/ttyUSB0",
+        "serialbaud": "9600",
+        "databits": 8,
+        "parity": "none",
+        "stopbits": 1,
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "1000",
+        "bin": "false",
+        "out": "time",
+        "addchar": "",
+        "responsetimeout": 10000
+    },
+    {
+        "id": "6c331ab5060bed3b",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-node-serialport": "2.0.3"
+        }
+    }
+]
